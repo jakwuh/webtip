@@ -1,0 +1,25 @@
+{
+  "name": "dailytip",
+  "version": "0.0.0",
+  "description": "Daily js tips 🛠",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jakwuh/daiytip.git"
+  },
+  "keywords": [
+    "javscript",
+    "tips"
+  ],
+  "author": "jakwuh <jakwuh@yandex-team.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakwuh/daiytip/issues"
+  },
+  "homepage": "https://github.com/jakwuh/daiytip#readme"
+}
