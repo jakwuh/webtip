@@ -1,33 +1,26 @@
 {
   "name": "dailytip",
-  "version": "0.0.0",
-  "description": "Daily js tips 🛠",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Daily js & related tips 🛠",
+  "main": "",
   "dependencies": {
-    "ava": "^0.21.0",
-    "co": "^4.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "scripts": {
-    "test": "ava"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jakwuh/daiytip.git"
+    "url": "git+ssh://git@github.com/jakwuh/dailytip.git"
   },
   "keywords": [
     "javscript",
     "tips"
   ],
-  "author": "jakwuh <jakwuh@yandex-team.ru>",
+  "author": "jakwuh <jakwuh@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jakwuh/daiytip/issues"
+    "url": "https://github.com/jakwuh/dailytip/issues"
   },
-  "homepage": "https://github.com/jakwuh/daiytip#readme",
-  "ava": {
-    "files": [
-      "src/*.js"
-    ]
-  }
+  "homepage": "https://github.com/jakwuh/dailytip#readme"
 }
