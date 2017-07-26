@@ -13,4 +13,7 @@ git push && git push --tags
 ```
 
 ---
-Special thanks to [@nexidan](https://github.com/NeXidan) for asking a good question which led to this tip.
+Special credits to [@nexidan](https://github.com/NeXidan) for asking a good question which led to this tip.
+
+---
+As noted by [@vlyahovich](https://github.com/vlyahovich) `git push origin <branch-name> --tags` pushes commits and tags as well. The key here is the `<branch-name>` parameter.
