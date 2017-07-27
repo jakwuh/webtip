@@ -17,3 +17,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [24-07-2017: Objects in webpack.DefinePlugin](tips/24-07-2017)
 - [25-07-2017: How to log tcp packets](tips/25-07-2017)
 - [26-07-2017: Push git commits and tags](tips/26-07-2017)
+- [27-07-2017: JSDoc doesn't worth the effort](tips/27-07-2017)
