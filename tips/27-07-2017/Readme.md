@@ -30,4 +30,4 @@ In the example we have 2 equal (regarding types) expressions: `console.log(b.foo
 
 Described questions along with my experience of using JSDoc led me to the conclusion: 
 
-#### JSDoc is not longer worth the effort.
+#### JSDoc does not longer worth the effort.
