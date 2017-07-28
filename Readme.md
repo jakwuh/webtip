@@ -18,3 +18,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [25-07-2017: How to log tcp packets](tips/25-07-2017)
 - [26-07-2017: Push git commits and tags](tips/26-07-2017)
 - [27-07-2017: JSDoc doesn't worth the effort](tips/27-07-2017)
+- [28-07-2017: Element.scrollIntoView doesn't support `smooth` option (unfortunately)](tips/28-07-2017)
