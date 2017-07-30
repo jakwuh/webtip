@@ -20,3 +20,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [27-07-2017: JSDoc doesn't worth the effort](tips/27-07-2017)
 - [28-07-2017: Element.scrollIntoView doesn't support `smooth` option (unfortunately)](tips/28-07-2017)
 - [29-07-2017: Chrome 60 DevTools highlights](tips/29-07-2017)
+- [30-07-2017: Array.prototype.push returns the length](tips/30-07-2017)
