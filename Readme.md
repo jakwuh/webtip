@@ -21,3 +21,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [28-07-2017: Element.scrollIntoView doesn't support `smooth` option (unfortunately)](tips/28-07-2017)
 - [29-07-2017: Chrome 60 DevTools highlights](tips/29-07-2017)
 - [30-07-2017: Array.prototype.push returns the length](tips/30-07-2017)
+- [31-07-2017: LRU cache with O(1) time complexity](tips/31-07-2017)

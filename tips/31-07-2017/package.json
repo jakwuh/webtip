@@ -1,0 +1,25 @@
+{
+  "name": "31-07-2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "jakwuh <jakwuh@yandex-team.ru>",
+  "license": "ISC",
+  "ava": {
+    "files": [
+      "test.js"
+    ],
+    "babel": "inherit",
+    "require": [
+      "babel-register"
+    ]
+  },
+  "dependencies": {
+    "ava": "^0.21.0",
+    "babel": "^6.23.0",
+    "babel-register": "^6.24.1"
+  }
+}
