@@ -21,3 +21,7 @@ Comparison is taken from the  [`npm-vs-yarn`](https://github.com/thomaschaaf/npm
 
 It's not hard to notice `npm` and `yarn` have almost identical performance when they work without cache & with lockfile. That means you would probably like to choose `npm` as a package installer when dealing with cloud build machines (e.g. travis), because you would not need to install yarn additionally before a build process.
 However, you could build a `node` artifact with `yarn` being bundled inside and in that case the choice is obvious.
+
+---
+
+Special credits to [Thomas Schaaf](https://github.com/thomaschaaf) for kindly granting permission to use all diagrams & data from his project [`npm-vs-yarn`](https://github.com/thomaschaaf/npm-vs-yarn).
