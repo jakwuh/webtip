@@ -25,3 +25,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [01-08-2017: `yarn` is still 30% better than `npm@5`](tips/01-08-2017)
 - [02-08-2017: WS: how to use live templates](tips/02-08-2017)
 - [03-08-2017: Explore your sourcemaps](tips/03-08-2017)
+- [04-08-2017: FSM or how to make your own RegExp matcher](tips/04-08-2017)

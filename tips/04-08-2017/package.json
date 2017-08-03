@@ -1,0 +1,15 @@
+{
+    "name": "04-08-2017",
+    "main": "index.js",
+    "scripts": {
+        "test": "ava test.js"
+    },
+    "author": "jakwuh <jakwuh@yandex-team.ru>",
+    "license": "ISC",
+    "ava": {
+        "require": [
+            "babel-register"
+        ],
+        "babel": "inherit"
+    }
+}
