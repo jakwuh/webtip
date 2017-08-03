@@ -23,4 +23,5 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [30-07-2017: Array.prototype.push returns the length](tips/30-07-2017)
 - [31-07-2017: LRU cache with O(1) time complexity](tips/31-07-2017)
 - [01-08-2017: `yarn` is still 30% better than `npm@5`](tips/01-08-2017)
-- [02-08-2017: WS: how to use live templates](tips/02-08-2017) 
+- [02-08-2017: WS: how to use live templates](tips/02-08-2017)
+- [03-08-2017: Explore your sourcemaps](tips/03-08-2017)
