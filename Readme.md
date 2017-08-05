@@ -27,3 +27,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [03-08-2017: Explore your sourcemaps](tips/03-08-2017)
 - [04-08-2017: FSM or how to make your own RegExp matcher](tips/04-08-2017)
 - [05-08-2017: Debugging Node in Chrome 60](tips/05-08-2017)
+- [06-08-2017: Useful WS live templates for js and react](tips/06-08-2017)
