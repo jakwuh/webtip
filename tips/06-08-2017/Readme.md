@@ -1,12 +1,14 @@
-Useful [WS live templates](https://www.jetbrains.com/help/webstorm/live-templates-2.html) for js and react by [@drapegnik](https://github.com/Drapegnik)
+#### Subscribe to our [Telegram channel](https://t.me/dailytip) to get daily updates  
 
-In one of [the previous tips](/tips/02-08-2017) we learned how to create live templates. Today I'll show you my set of shortcuts. 
+---
 
-<p align="center">
-  <img width="700px" src="http://res.cloudinary.com/dzsjwgjii/image/upload/v1501967979/rcc.gif"/>
-</p>
+This is a set of useful [WS live templates](https://www.jetbrains.com/help/webstorm/live-templates-2.html) for JS and React created by [@drapegnik](https://github.com/Drapegnik)
 
-## table of contents
+A few tips back [we learned](/tips/02-08-2017) how to create live templates. Today I'll show you my set of shortcuts.
+
+![live template demo](http://res.cloudinary.com/dzsjwgjii/image/upload/v1501967979/rcc.gif)
+
+## Table of contents
 * [JavaScript](#javascript)
 * [React](#react)
   * [common](#react)
@@ -15,8 +17,9 @@ In one of [the previous tips](/tips/02-08-2017) we learned how to create live te
   * [events callbacks](#events-callbacks)
 * [Other](#other)
 
-## how to import
-> just put `.xml` file into your WebStorm live templates folder
+## Usage
+
+> To start using live templates simply put an appropriate `.xml` file into your WebStorm live templates folder
 
 * **macOS**: `~/Library/Preferences/WebStorm<version number>/templates`
 * **Linux**: `~\.WebStorm<version number>\config\templates`
@@ -98,7 +101,7 @@ for (let $INDEX$ = 0; $INDEX$ < $ARRAY$.length; $INDEX$++) {
 ```
 
 ### > `rfor`
-> Iterate elements of array in reverse order
+> Iterate elements of an array in a reverse order
 ```js
 for (let $INDEX$ = $ARRAY$.length - 1; $INDEX$ >= 0; $INDEX$--) {
   let $VAR$ = $ARRAY$[$INDEX$];
@@ -176,7 +179,7 @@ export default $COMPONENT$;
 ***
 
 ### > `rfc`
-> React Function Component
+> React Functional Component
 
 ```js
 import React, { PropTypes } from 'react'
@@ -545,4 +548,5 @@ $END$
 
 ***
 
-PS: you can find more in my [repo](https://github.com/Drapegnik/env)
+Special credits to [@drapegnik](https://github.com/Drapegnik) for a useful set of live templates.
+Check out his [repo](https://github.com/Drapegnik/env) for more information.

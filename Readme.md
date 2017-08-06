@@ -1,5 +1,7 @@
 # Daily tip
 
+#### Subscribe to our [Telegram channel](https://t.me/dailytip) to get daily updates  
+
 *tldr; A tip a day. JS & related.*
 
 Hi! My name is James Akwuh and I've started this project to hit a range of professional and personal aims at once (which I will cover as soon as I will reach a number of 100 tips). Until then you are welcome to check out this repo every day for a new tip about JS and related topics. Hope, you will find it helpful.
@@ -27,4 +29,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [03-08-2017: Explore your sourcemaps](tips/03-08-2017)
 - [04-08-2017: FSM or how to make your own RegExp matcher](tips/04-08-2017)
 - [05-08-2017: Debugging Node in Chrome 60](tips/05-08-2017)
-- [06-08-2017: Useful WS live templates for js and react](tips/06-08-2017)
+- [06-08-2017: A set of useful WS live templates by ](tips/06-08-2017)[@drapegnik](https://github.com/Drapegnik)
