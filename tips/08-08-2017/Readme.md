@@ -118,5 +118,5 @@ The difficulty here is that a `catch` block could have a few even nested conditi
 
 That's it! Now our `catch` blocks will become much more clear.
 
-[1]: (/tips/07-08-2017/Readme.md)
+[1]: /tips/07-08-2017/Readme.md
 [2]: https://github.com/jakwuh/eslint-plugin-promise-catch
