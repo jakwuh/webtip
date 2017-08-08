@@ -31,3 +31,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [05-08-2017: Debugging Node in Chrome 60](tips/05-08-2017)
 - [06-08-2017: A set of useful WS live templates by ](tips/06-08-2017)[@drapegnik](https://github.com/Drapegnik)
 - [07-08-2017: How to create your own eslint rule. Part 1/2](tips/07-08-2017)
+- [08-08-2017: How to create your own eslint rule. Part 2/2](tips/08-08-2017)
