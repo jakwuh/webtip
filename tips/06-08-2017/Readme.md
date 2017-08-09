@@ -1,11 +1,12 @@
-# live templates
-useful shortcuts for WebStorm [live templates feature](https://www.jetbrains.com/help/webstorm/live-templates-2.html)
+#### Subscribe to our [Telegram channel](https://t.me/dailytip) to get daily updates
 
-<p align="center">
-  <img width="700px" src="http://res.cloudinary.com/dzsjwgjii/image/upload/v1502207798/rcc-demo.gif"/>
-</p>
+This is a set of useful [WS live templates](https://www.jetbrains.com/help/webstorm/live-templates-2.html) for JS and React created by [@drapegnik](https://github.com/Drapegnik)
 
-## table of contents
+A few tips back [we learned](/tips/02-08-2017) how to create live templates. Today I'll show you my set of shortcuts.   
+    
+![live template demo](http://res.cloudinary.com/dzsjwgjii/image/upload/v1502207798/rcc-demo.gif)
+
+## Table of contents
 * [JavaScript](#javascript)
 * [React](#react)
   * [common](#react)
@@ -14,7 +15,7 @@ useful shortcuts for WebStorm [live templates feature](https://www.jetbrains.com
   * [events callbacks](#events-callbacks)
 * [Other](#other)
 
-## how to use
+## Usage
 > To start using this live templates simply put `.xml` file into your WebStorm live templates folder
 
 * **macOS**: `~/Library/Preferences/WebStorm<version number>/templates`
@@ -465,3 +466,8 @@ name | expression | default
     // FIXME(@$WHO$): $TEXT$
 $END$
 ```
+
+***
+
+Special credits to [@drapegnik](https://github.com/Drapegnik) for a useful set of live templates.
+Check out his [repo](https://github.com/Drapegnik/env) for more information.
