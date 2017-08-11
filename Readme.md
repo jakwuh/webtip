@@ -34,3 +34,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [08-08-2017: How to create your own eslint rule. Part 2/2](tips/08-08-2017)
 - [09-08-2017: Who cares - MIT vs Apache vs GPL](tips/09-08-2017)
 - [10-08-2017: `performance.measure()`](tips/10-08-2017)
+- [11-08-2017: Cookies in a browser](tips/11-08-2017)
