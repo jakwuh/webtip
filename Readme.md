@@ -6,8 +6,6 @@
 
 Hi! My name is James Akwuh and I've started this project to hit a range of professional and personal aims at once (which I will cover as soon as I will reach a number of 100 tips). Until then you are welcome to check out this repo every day for a new tip about JS and related topics. Hope, you will find it helpful.
 
-
-
 ### Table of contents:
 
 - [18-07-2017: You can not extend native `Error` class while using babel](tips/18-07-2017/)
@@ -34,4 +32,5 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [08-08-2017: How to create your own eslint rule. Part 2/2](tips/08-08-2017)
 - [09-08-2017: Who cares - MIT vs Apache vs GPL](tips/09-08-2017)
 - [10-08-2017: `performance.measure()`](tips/10-08-2017)
-- [11-08-2017: Cookies in a browser](tips/11-08-2017)
+- [11-08-2017: How do cookies actually work](tips/11-08-2017)
+- [12-08-2017: Dangerous, dangerous `RegExp`s](tips/12-08-2017)
