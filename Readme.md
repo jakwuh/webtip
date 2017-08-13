@@ -34,3 +34,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [10-08-2017: `performance.measure()`](tips/10-08-2017)
 - [11-08-2017: How do cookies actually work](tips/11-08-2017)
 - [12-08-2017: Dangerous, dangerous `RegExp`s](tips/12-08-2017)
+- [13-08-2017: BB is watching you](tips/13-08-2017)
