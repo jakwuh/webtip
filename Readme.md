@@ -11,7 +11,7 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [18-07-2017: You can not extend native `Error` class while using babel](tips/18-07-2017/)
 - [19-07-2017: You can force WebStorm to autoimport from resources roots rather than using relative paths](tips/19-07-2017)
 - [20-07-2017: Always call `clock.restore()` while using `sinon` package](tips/20-07-2017)
-- [21-07-2017:  Don't forget JSON.stringify is an unsafe method](tips/21-07-2017)
+- [21-07-2017: Don't forget JSON.stringify is an unsafe method](tips/21-07-2017)
 - [22-07-2017: WS 2017.2 introduced parameter hints for TS](tips/22-07-2017)
 - [23-07-2017: 3 useful git commands](tips/23-07-2017)
 - [24-07-2017: Objects in webpack.DefinePlugin](tips/24-07-2017)
@@ -35,3 +35,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [11-08-2017: How do cookies actually work](tips/11-08-2017)
 - [12-08-2017: Dangerous, dangerous `RegExp`s](tips/12-08-2017)
 - [13-08-2017: BB is watching you](tips/13-08-2017)
+- [14-08-2017: How to escape asynchronicity](tips/14-08-2017)
