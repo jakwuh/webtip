@@ -36,3 +36,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [12-08-2017: Dangerous, dangerous `RegExp`s](tips/12-08-2017)
 - [13-08-2017: BB is watching you](tips/13-08-2017)
 - [14-08-2017: How to escape asynchronicity](tips/14-08-2017)
+- [15-08-2017: How to reduce lodash size by 3 times](tips/15-08-2017)
