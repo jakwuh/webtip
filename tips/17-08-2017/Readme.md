@@ -15,7 +15,7 @@ With webpack 1 we have used to do it with the following syntax:
 
 ```js
 require.ensure(['./a.js', './b.js'], () => {
-
+    // here we go
 }, 'async-chunk-name');
 ```
 
@@ -58,7 +58,7 @@ importModules([
 
 This is primarly the case when `babel` comes out.
 
-Keep your eyes open and look forward for the plugin implementation in the next tip!
+Keep your eyes open and look forward to the plugin implementation in the next tip!
 
 [1]: https://github.com/webpack/webpack/issues/1949
 [2]: https://github.com/webpack/webpack/issues/1949#issuecomment-289289959
