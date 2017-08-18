@@ -34,7 +34,8 @@ let ast = babylon.parse('import(/* webpackChunkName: "test" */"./a.js")')
 
 <details>
     <summary>Source code</summary>
-    <p>
+<p>
+
 ```js
 CallExpression(path) {
         const node = path.node;
