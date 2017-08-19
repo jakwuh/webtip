@@ -1,7 +1,9 @@
 {
   "scripts": {
     "webpack": "node ./build/webpack",
-    "webpack:watch": "node ./build/webpack --development --watch"
+    "webpack:watch": "node ./build/webpack --development --watch",
+    "serve:watch": "nodemon ./dist/server/index.js",
+    "start": "concurrently --kill-others \"npm run webpack:watch\" \"npm run serve:watch\""
   },
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -10,6 +12,7 @@
     "babel-preset-env": "^1.6.0",
     "chalk": "^2.1.0",
     "clean-webpack-plugin": "^0.1.16",
+    "concurrently": "^3.5.0",
     "css-loader": "^0.28.5",
     "extract-text-webpack-plugin": "^3.0.0",
     "handlebars": "^4.0.10",
