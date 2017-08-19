@@ -40,3 +40,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [16-08-2017: What CommonsChunkPlugin's `minChunks` actually means](tips/16-08-2017)
 - [17-08-2017: How to make `webpack@2+` dynamic imports better. Part 1/2](tips/17-08-2017)
 - [18-08-2017: How to make `webpack@2+` dynamic imports better. Part 2/2](tips/18-08-2017)
+- [19-08-2017: [`concurrently` = cross-platform `|`](https://www.npmjs.com/package/concurrently)](tips/19-08-2017)
