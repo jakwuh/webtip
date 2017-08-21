@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-env": "^1.6.0",
+    "lodash": "^4.17.4",
+    "lodash-webpack-plugin": "^0.11.4",
+    "webpack": "^3.5.5"
+  }
+}
