@@ -43,3 +43,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [19-08-2017: `concurrently` = cross-platform `|`](tips/19-08-2017)
 - [20-08-2017: Minimum Window Substring](tips/20-08-2017)
 - [21-08-2017: `webpack` + `lodash` - all the things. Part 1/2](tips/21-08-2017)
+- [22-08-2017: `webpack` + `lodash` - all the things. Part 2/2](tips/22-08-2017)
