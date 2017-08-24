@@ -45,3 +45,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [21-08-2017: `webpack` + `lodash` - all the things. Part 1/2](tips/21-08-2017)
 - [22-08-2017: `webpack` + `lodash` - all the things. Part 2/2](tips/22-08-2017)
 - [23-08-2017: First Missing Positive](tips/23-08-2017)
+- [24-08-2017: #TIL `_.overEvery`](tips/24-08-2017)
