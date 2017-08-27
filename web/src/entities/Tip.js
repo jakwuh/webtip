@@ -3,11 +3,11 @@ import {getTips} from '../libs/helpers/getTips';
 import {getReadmeMarkdown} from '../libs/helpers/getMarkdown';
 import {NotFoundError} from './errors';
 import {getTipTitle} from '../libs/helpers/getTipTitle';
+import {getTipMeta} from '../libs/helpers/getTipMeta';
 
 export class Tip {
     constructor({id}) {
         this.id = id;
-        this.title = getTipTitle(id);
     }
 
     getRoot() {
@@ -18,8 +18,11 @@ export class Tip {
 
     async fetchContent() {
         let content = await getReadmeMarkdown(this.getRoot());
+        let meta = await getTipMeta(this.id);
+
         this.content = content;
-        this.description = content.slice(0, 160);
+        this.title = meta.title || getTipTitle(id);
+        this.description = meta.description || content.slice(0, 160);
     }
 
     static findIndexByDate(date) {
