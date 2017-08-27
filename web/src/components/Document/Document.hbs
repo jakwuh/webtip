@@ -3,13 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
-        {{~#if tip~}}
-            {{tip.title}} - Dailytip @ James Akwuh
-        {{~else~}}
-            Dailytip @ James Akwuh
-        {{~/if~}}
-    </title>
+    <title>{{title}}</title>
     {{#each meta}}
     <meta property="{{[0]}}" content="{{[1]}}"/>
     {{/each}}
@@ -40,7 +34,6 @@
 
     ga('create', 'UA-63426416-2', 'auto');
     ga('send', 'pageview');
-
 </script>
 </body>
 </html>

@@ -11,9 +11,10 @@ export default function () {
             return ctx.redirect(`/t/${index}/`);
         }
 
-        let tip = Tip.fromId(id),
-            content = await tip.getContentPromise();
+        let tip = Tip.fromId(id);
 
-        ctx.body = document.render({tip, content});
+        await tip.fetchContent();
+
+        ctx.body = document.render({tip});
     });
 }

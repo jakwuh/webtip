@@ -16,8 +16,10 @@ export class Tip {
         return join(TIPS_PATH, tips[this.id - 1]);
     }
 
-    getContentPromise() {
-        return getReadmeMarkdown(this.getRoot());
+    async fetchContent() {
+        let content = await getReadmeMarkdown(this.getRoot());
+        this.content = content;
+        this.description = content.slice(0, 160);
     }
 
     static findIndexByDate(date) {
