@@ -21,7 +21,7 @@ export class Tip {
         let meta = await getTipMeta(this.id);
 
         this.content = content;
-        this.title = meta.title || getTipTitle(id);
+        this.title = meta.title || getTipTitle(this.id);
         this.description = meta.description || content.slice(0, 160);
     }
 
