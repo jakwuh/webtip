@@ -8,7 +8,7 @@ const TIP_REGEXP = /\[[\d\-]+:\s*(.*)\s*]/;
 const ALL_TIPS_REGEXP = new RegExp(TIP_REGEXP.source, 'g');
 
 export function getTipTitle(id) {
-    let date = tips[id];
+    let date = tips[id - 1];
     let content = readFileSync(join(ROOT_PATH, 'Readme.md')).toString();
 
     let matches = content.match(ALL_TIPS_REGEXP);
