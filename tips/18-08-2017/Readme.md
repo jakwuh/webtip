@@ -32,9 +32,9 @@ let ast = babylon.parse('import(/* webpackChunkName: "test" */"./a.js")')
 
 - For some reason `babylon` wasn't able to parse `dynamic import` statement. Both with `babel-plugin-syntax-dynamic-import` plugin enabled and `sourceType: 'module'` option used. This forced me to [hack a bit][4].
 
-<details>
-    <summary>Source code</summary>
-<p>
+Hope you'll find the plugin useful!
+
+**Source code**
 
 ```js
 CallExpression(path) {
@@ -65,10 +65,6 @@ CallExpression(path) {
     }
 }
 ```
-</p>
-</details>
-
-Hope you'll find the plugin useful!
 
 [1]: https://github.com/jakwuh/dailytip/tree/master/tips/17-08-2017
 [2]: https://github.com/jakwuh/babel-plugin-webpack-named-dynamic-imports

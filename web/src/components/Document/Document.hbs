@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        {{#if tip~}}
+        {{~#if tip~}}
             {{tip.title}} - Dailytip @ James Akwuh
-        {{else}}
+        {{~else~}}
             Dailytip @ James Akwuh
-        {{/if}}
+        {{~/if~}}
     </title>
     {{#each meta}}
     <meta property="{{[0]}}" content="{{[1]}}"/>
@@ -17,6 +18,9 @@
 <body>
 <article>
     <div class="markdown-body">
+        {{~#if tip~}}
+            <h3><a href="/">Daily tip</a> / {{tip.title}}</h3>
+        {{~/if~}}
         {{{content}}}
     </div>
 </article>

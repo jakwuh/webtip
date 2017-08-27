@@ -8,9 +8,8 @@ Steps to do on a demo page:
 2. Open the same page in incognito mode  
 3. Be surprised  
 
-<details>
-    <summary>I don't want to watch the video for explanations, say me the principles</summary>
-    <p>
+**The principles**
+
 The demo was created using a fingerprintjs library. It identifies a user by calculating a hash of a bunch of unique parameters:
 
 - UserAgent
@@ -18,9 +17,6 @@ The demo was created using a fingerprintjs library. It identifies a user by calc
 - TimeZone
 - Plugins list
 - Installed fonts (the most significant part)
-
-</p>
-</details>
 
 ---
 

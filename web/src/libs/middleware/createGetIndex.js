@@ -7,9 +7,9 @@ export default function () {
     let document = new Document();
 
     return compose([
-        route.get('/t/', ctx => ctx.redirect('/')),
+        route.get('/', ctx => ctx.redirect('/t/')),
 
-        route.get('/', async (ctx) => {
+        route.get('/t/', async (ctx) => {
             let content = await getReadmeMarkdown();
 
             if (content) {

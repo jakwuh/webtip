@@ -8,9 +8,7 @@
 
 The most interesting part here is that `performance.measure()` adds a new event into the **User Timing** section under the **Performance** tab. (checked in Chrome 60 / Canary). This could be very useful to build a general picture of an execution flow.
 
-<details>
-    <summary>Source code</summary>
-    <p>
+**Source code**
 
 ```js
 function asyncOperation() {
@@ -23,7 +21,5 @@ function asyncOperation() {
 performance.mark('async-start');
 asyncOperation();
 ```
-</p>
-</details>
 
 [1]: https://developer.mozilla.org/en/docs/Web/API/Performance

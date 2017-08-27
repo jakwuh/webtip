@@ -18,9 +18,7 @@ Open the `Javascript` dropdown and click `plus` icon at the right side of the pa
 
 ### Step 3
 
-<details>
-  <summary>Fill up the suggested form:</summary>
-  <p>
+**Fill up the suggested form:**
 
 ```js
 
@@ -35,9 +33,6 @@ describe('$DESCRIPTION$', function () {
 
 });
 ```
-
-</p>
-</details>
 
 ![Step 3](3.png)
 

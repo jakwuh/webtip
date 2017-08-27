@@ -17,11 +17,9 @@ Our task is to implement these operations in `O(1)` time complexity.
 
 As we described above, LRU cache should discard the most recently used item before inserting a new one. This means we need to know somehow (and update the information on) which element was not used for a long time (in `O(1)` time). For this purpose we could use a **DoubleLinkedList** which we will call **history**, as far as a list does insert / remove in `O(1)` time assuming we have an iterator for the list item.
 
-<details>
-  <summary>DoubleLinkedList implementation</summary>
-  <p>
+**DoubleLinkedList implementation**
 
-  ```js
+```js
   export class DoubleLinkedList {
       constructor() {
           this._size = 0;
@@ -59,9 +57,7 @@ As we described above, LRU cache should discard the most recently used item befo
           this.link(this._head, item);
       }
   }
-  ```
-  </p>
-</details>
+```
 
 ### Step 2
 

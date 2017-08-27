@@ -26,9 +26,7 @@ Our next task is to describe all needed steps which our FSM uses. These are:
 
 ##### NullStep
 
-<details>
-    <summary>Source</summary>
-    <p>
+**Source**
 
 ```js
 class NullStep {
@@ -49,16 +47,12 @@ class NullStep {
 
 }
 ```
-</p>
-</details>
 
 This is a failing wild step. Once a state machine reached this step, it switches its internal status to `failed` meaning there are no possible ways to match a string regardless of wild steps internal state)
 
 ##### FinalStep
 
-<details>
-    <summary>Source</summary>
-    <p>
+**Source**
 
 ```js
 class FinalStep {
@@ -75,8 +69,6 @@ class FinalStep {
 
 }
 ```
-</p>
-</details>
 
 This is the final step. If cursor points to the end of a string then FSM status switches to `succeed`. Otherwise it executes a `backward` operation, failing back to the last wild step to try to change its internal state and match again.
 
@@ -84,10 +76,7 @@ This is the final step. If cursor points to the end of a string then FSM status 
 
 The step matching exactly 1 symbol. If it matches the current cursor letter then it executes a `next` operation, incrementing cursor and current step. Otherwise it executes a `backward` operation, failing back to the last wild step to try to change its internal state and match again.
 
-
-<details>
-    <summary>Source</summary>
-    <p>
+**Source**
 
 ```js
 class Step {
@@ -117,17 +106,12 @@ class Step {
 
 }
 ```
-</p>
-</details>
 
 ##### WildStep
 
 Same as `Step` except it matches 0+ symbols and can be used for fallbacks (a `backward` operation).
 
-
-<details>
-    <summary>Source</summary>
-    <p>
+**Source**
 
 ```js
 class WildStep extends Step {
@@ -170,16 +154,12 @@ class WildStep extends Step {
 
 }
 ```
-</p>
-</details>
 
 <br>
 
 That's it. The remaining is simple: parse a RegExp and build a steps array from it and iterate unless internal state machine status becomes one of final (`failed` or `succeed`).
 
-<details>
-    <summary>Source</summary>
-    <p>
+**Source**
 
 ```js
 class StateMachine {
@@ -254,8 +234,6 @@ class StateMachine {
 
 }
 ```
-</p>
-</details>
 
 ---
 
