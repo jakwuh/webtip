@@ -17,7 +17,10 @@ export function getMarkdown(path) {
                     return reject(err);
                 }
 
-                resolve(arr.join(''));
+                let content = arr.join('');
+                content = content.replace(/tips\/([\d\-]+)/g, 't/$1');
+
+                resolve(content);
             });
         });
     });

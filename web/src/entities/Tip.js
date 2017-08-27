@@ -2,10 +2,12 @@ import {join} from 'path';
 import {getTips} from '../libs/helpers/getTips';
 import {getReadmeMarkdown} from '../libs/helpers/getMarkdown';
 import {NotFoundError} from './errors';
+import {getTipTitle} from '../libs/helpers/getTipTitle';
 
 export class Tip {
     constructor({id}) {
         this.id = id;
+        this.title = getTipTitle(id);
     }
 
     getRoot() {

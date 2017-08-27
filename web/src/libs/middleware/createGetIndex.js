@@ -9,7 +9,6 @@ export default function () {
         let content = await getReadmeMarkdown();
 
         if (content) {
-            content = content.replace(/tips\/([\d\-]+)/g, 't/$1');
             ctx.body = document.render({content: content});
         }
     });

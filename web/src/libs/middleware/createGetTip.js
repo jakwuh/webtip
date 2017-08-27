@@ -14,6 +14,6 @@ export default function () {
         let tip = Tip.fromId(id),
             content = await tip.getContentPromise();
 
-        ctx.body = document.render({content});
+        ctx.body = document.render({tip, content});
     });
 }
