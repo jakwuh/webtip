@@ -2,7 +2,7 @@ A software digest made by developers in 2 parts.
 
 **Part 1/2**: code editors.
 
-Big thanks to:
+Special credits to:
 
 - [Ivan Akulov][1]
 - [Ivan Pazhitnykh][3]
@@ -51,6 +51,8 @@ When I joined Yandex I was using Sublime for the first time, but quickly I switc
 [6]: https://www.jetbrains.com/toolbox/
 
 #### Visual Studio Code
+
+[Ivan Akulov][1]:  
 It’s an advanced code editor created by Microsoft. Unlike traditional Visual Studio, it’s small, quick and free. I started using it half-a-year or a year ago when I tried to find a more modern replacement for Notepad++.
 
 Pros:

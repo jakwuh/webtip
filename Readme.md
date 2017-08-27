@@ -48,3 +48,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [24-08-2017: #TIL `_.overEvery`](tips/24-08-2017)
 - [25-08-2017: Keeping `git` history clean](tips/25-08-2017)
 - [26-08-2017: From `zsh` to VS Code - a software digest. Part 1/2 - code editors](tips/26-08-2017)
+- [27-08-2017: From `zsh` to VS Code - a software digest. Part 2/2 - shells, guis and git](tips/27-08-2017)
