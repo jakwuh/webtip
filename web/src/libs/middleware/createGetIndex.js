@@ -6,10 +6,11 @@ export default function () {
     let document = new Document();
 
     return route.get('/(t/)?', async (ctx) => {
-        let tip = await getReadmeMarkdown();
+        let content = await getReadmeMarkdown();
 
-        if (tip) {
-            ctx.body = document.render({content: tip});
+        if (content) {
+            content = content.replace(/tips\/([\d\-]+)/g, 't/$1');
+            ctx.body = document.render({content: content});
         }
     });
 }

@@ -9,11 +9,19 @@ export class Tip {
     }
 
     getRoot() {
+        const tips = getTips();
+
         return join(TIPS_PATH, tips[this.id - 1]);
     }
 
     getContentPromise() {
         return getReadmeMarkdown(this.getRoot());
+    }
+
+    static findIndexByDate(date) {
+        const tips = getTips();
+
+        return tips.findIndex(tip => tip === date) + 1;
     }
 
     static fromId(id) {

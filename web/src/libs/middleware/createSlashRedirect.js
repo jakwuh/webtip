@@ -4,9 +4,9 @@ export default function () {
 
         if (!path.endsWith('/')) {
             let url = ctx.origin + ctx.path + '/' + (ctx.querystring ? '?' + ctx.querystring : '');
-            ctx.redirect(url);
-        } else {
-            await next();
+            return ctx.redirect(url);
         }
+
+        await next();
     };
 }
