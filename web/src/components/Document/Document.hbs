@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Dailytip @ James Akwuh</title>
+        {{#each meta}}
+            <meta property="{{property}}" content="{{content}}"/>
+        {{/each}}
         <link rel="stylesheet" href="/assets/{{stylesName}}">
     </head>
     <body>

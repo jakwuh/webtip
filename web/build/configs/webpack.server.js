@@ -3,8 +3,9 @@ const {resolve} = require('path');
 const nodeExternals = require('webpack-node-externals');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
-module.exports = function ({paths: {root, dist}}) {
+module.exports = function ({paths: {root, dist}, env: {development}}) {
     return {
+        devtool: development ? 'source-map' : false,
         target: 'node',
         externals: [nodeExternals()],
         entry: {
@@ -37,7 +38,8 @@ module.exports = function ({paths: {root, dist}}) {
             new webpack.DefinePlugin({
                 MANIFEST_PATH: JSON.stringify(resolve(root, 'dist/client/manifest.json')),
                 ASSETS_PATH: JSON.stringify(resolve(root, 'dist/client/assets')),
-                TIPS_PATH: JSON.stringify(resolve(root, '../tips'))
+                TIPS_PATH: JSON.stringify(resolve(root, '../tips')),
+                ROOT_PATH: JSON.stringify(resolve(root, '..'))
             })
         ]
 

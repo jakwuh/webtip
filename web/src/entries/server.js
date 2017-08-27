@@ -1,33 +1,30 @@
 import 'babel-polyfill';
 import Koa from 'koa';
-import route from 'koa-route';
-import serve from 'koa-static';
-import mount from 'koa-mount';
 import minimist from 'minimist';
+import createLogger from 'koa-logger';
 
-import {Document} from '../components/Document/Document';
-import {getTip} from '../libs/helpers/getTip';
+import createSlashRedirect from '../libs/middleware/createSlashRedirect';
+import createAssetsServe from '../libs/middleware/createAssetsServe';
+import createGetTip from '../libs/middleware/createGetTip';
+import createGetIndex from '../libs/middleware/createGetIndex';
+import createErrorHandler from '../libs/middleware/createErrorHandler';
 
-const app = new Koa();
 const args = minimist(process.argv);
+const app = new Koa();
 
-app.use(route.get('/t/:id', async (ctx, id) => {
-    let document = new Document();
-    let tip = await getTip(id);
-
-    if (tip) {
-        ctx.body = document.render({content: tip});
-    }
-}));
-
-app.use(mount('/assets/', serve(ASSETS_PATH)));
+app.use(createErrorHandler());
+app.use(createLogger());
+app.use(createAssetsServe());
+app.use(createSlashRedirect());
+app.use(createGetTip());
+app.use(createGetIndex());
 
 const {port = 3000} = args;
 
 app.listen(port, (err) => {
     if (err) {
         console.error(err);
+    } else {
+        console.log(`Server is listening on http://localhost:${port}`);
     }
-
-    console.log(`Server is listening on http://localhost:${port}`);
 });

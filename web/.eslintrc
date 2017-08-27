@@ -1,0 +1,9 @@
+{
+    "extends": "airbnb-base",
+    "globals": {
+        "MANIFEST_PATH": false,
+        "ASSETS_PATH": false,
+        "TIPS_PATH": false,
+        "ROOT_PATH": false
+    }
+}
