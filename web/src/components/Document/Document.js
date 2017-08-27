@@ -15,6 +15,7 @@ export class Document {
             meta = this.getMeta(tip);
 
         return template({
+            tip,
             meta,
             content,
             stylesName: manifest['styles.css'],
