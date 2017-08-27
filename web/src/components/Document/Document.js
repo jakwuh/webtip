@@ -3,10 +3,14 @@ import template from './Document.hbs';
 
 export class Document {
     getMeta(tip) {
-        return [
+        return tip ? [
             ['og:title', tip.title],
             ['og:type', 'article'],
             ['og:url', `https://akwuh.me/t/${tip.id}/`]
+        ] : [
+            ['og:title', 'Dailytip @ James Akwuh'],
+            ['og:type', 'website'],
+            ['og:url', 'https://akwuh.me/t/']
         ]
     }
 

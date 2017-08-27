@@ -2,7 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>{{tip.title}} - Dailytip @ James Akwuh</title>
+    <title>
+        {{#if tip~}}
+            {{tip.title}} - Dailytip @ James Akwuh
+        {{else}}
+            Dailytip @ James Akwuh
+        {{/if}}
+    </title>
     {{#each meta}}
     <meta property="{{[0]}}" content="{{[1]}}"/>
     {{/each}}
