@@ -9,7 +9,7 @@ Lets analyze the example by creating a deploy command for **dailytip**.
 
 ### 1. ssh aliases
 
-Typing a remote server ip-address every time you connect to it is inconvinient. A good rule here will be to create a ssh alias by adding a few lines to `~/.ssh/config`:
+Typing a remote server's ip-address each time you connect to it is inconvenient. A good rule here is to create a ssh alias by adding a few lines to `~/.ssh/config`:
 
 ```
 host me
@@ -20,7 +20,7 @@ ForwardAgent no
 
 Now you can type `ssh me` instead of `ssh <ip.address>`.
 
-### 2. ssh remote command
+### 2. ssh remote commands
 
 We can execute commands on a remote machine by passing a string to **ssh** command:
 
@@ -76,7 +76,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-Ugh.. still failing. A good news here is that we've forgot to check if any identity added to the ssh authorization agent. If there are no identities then nothing could be forwarded to a remote machine, so this might be a fail reason.
+Ugh.. still failing. A good news here is that we've forgotten to check if any identity added to the ssh authorization agent. If there are no identities then nothing could be forwarded to a remote machine, so this might be a fail reason.
 
 To check if there are any identities added to the ssh-agent type the following command:
 
@@ -109,7 +109,7 @@ Already up-to-date.
 
 Yay! It works.
 
-> Beyond the scope of this tutorial, [deploy keys](https://developer.github.com/v3/guides/managing-deploy-keys/) are usually used for setting up CI/CD instead of directly passing your identity with a `ssh -A` option.
+> Beyond the scope of this tutorial, [deploy keys](https://developer.github.com/v3/guides/managing-deploy-keys/) are usually used for setting up CI/CD as a safer alternative to directly passing your identity with a `ssh -A` option.
 
 ### 4. ssh .bashrc
 
@@ -121,9 +121,9 @@ Already up-to-date.
 bash: yarn: command not found
 ```
 
-But... we definitely have `yarn` on a remote machine, we could check it by simply `ssh me` and then typing `yarn`, right? So, what's going wrong here?
+But... we definitely have `yarn` on the remote machine, we could check it by simply `ssh me` and then typing `yarn`, right? So, what's going wrong here?
 
-The reason here is that aliases are not initialized because neither [`.bashrc` nor `.bash_profile`](https://apple.stackexchange.com/a/51038) are loaded once we execute a `ssh` command. In order to `source` `.bashrc` config on a remote machine during `ssh` remote command execution we need to make it interactive. Actually, this is the last step we need:
+The reason here is that aliases are not initialized because neither [`.bashrc` nor `.bash_profile`](https://apple.stackexchange.com/a/51038) are loaded once we execute a `ssh` command. In order to `source` `.bashrc` config on a remote machine during `ssh` command execution we need to make it interactive. Actually we could do it with `bash -i` and this is the last step we need:
 
 ```bash
 ssh -A me 'bash -ic "cd dailytip && git pull && cd web && yarn && npm run webpack && pm2 restart dailytip"'
