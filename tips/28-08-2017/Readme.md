@@ -76,7 +76,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-Ugh.. still failing. A good news here is that we've forgotten to check if any identity added to the ssh authorization agent. If there are no identities then nothing could be forwarded to a remote machine, so this might be a fail reason.
+Ugh.. still failing. A good news here is that we've forgotten to check if any identity have been added to the ssh authorization agent. If there are no identities then nothing could be forwarded to a remote machine, so this might be a fail reason.
 
 To check if there are any identities added to the ssh-agent type the following command:
 
@@ -113,7 +113,7 @@ Yay! It works.
 
 ### 4. ssh .bashrc
 
-Our next step is to update package dependencies. We are doing this w/ `yarn`:
+Our next step is to update package dependencies. We do this w/ `yarn`:
 
 ```bash
 > ssh -A me 'cd ./dailytip && git pull && cd web && yarn'
