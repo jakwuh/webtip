@@ -1,0 +1,3 @@
+{
+    "description": "Many JavaScript libraries still exist in a CommonJS style. This becomes a problem when it comes to resolving library exports in order to enable proper autocomplete."
+}
