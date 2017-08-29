@@ -50,3 +50,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [26-08-2017: From `zsh` to VS Code - a software digest. Part 1/2 - code editors](tips/26-08-2017)
 - [27-08-2017: From `zsh` to VS Code - a software digest. Part 2/2 - shells, guis and git](tips/27-08-2017)
 - [28-08-2017: How to `ssh` properly](tips/28-08-2017)
+- [29-08-2017: Why your autocomplete doesn't work indeed](tips/29-08-2017)
