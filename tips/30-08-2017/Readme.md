@@ -1,4 +1,4 @@
-I plan to set up a CI/CD process soon in order to deploy dailytip automatically as soon as I push a new commit to the repository. The most important step of CI as I see is having a good tests coverage.
+I plan to set up a CI/CD process soon in order to deploy dailytip automatically as soon as I push a new commit to the repository. The most important step of CI as I see it is having a good tests coverage.
 
 [`gemini`][1] and [a plenty of other tools][2] provide tooling for regression testing using screenshots. This is a simple, chip and, well, rather reliable way of covering visual contents of a webapp with tests.
 
