@@ -52,3 +52,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [28-08-2017: How to `ssh` properly](tips/28-08-2017)
 - [29-08-2017: Why doesn't your autocomplete work indeed?](tips/29-08-2017)
 - [30-08-2017: Zero-cost screenshot testing using `puppeteer`. Part 1/2](tips/30-08-2017)
+- [31-08-2017: Zero-cost screenshot testing using `puppeteer`. Part 2/2](tips/31-08-2017)
