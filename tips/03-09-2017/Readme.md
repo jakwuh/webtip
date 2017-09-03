@@ -42,8 +42,9 @@ class Solution(object):
 
         for index, current in enumerate(heights):
             while len(indices) and heights[indices[-1]] > current:
-                i = indices.pop()
-                area = max(area, (index - i) * heights[i])
+                h = heights[indices.pop()]
+                w = index - indices[-1] - 1 if len(indices) else index
+                area = max(area, w * h)
 
             indices.append(index)
 
