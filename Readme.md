@@ -57,3 +57,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [02-09-2017: Distinct Subsequences](tips/02-09-2017)
 - [03-09-2017: Largest Rectangle in Histogram](tips/03-09-2017)
 - [04-09-2017: Word Ladder II](tips/04-09-2017)
+- [05-09-2017: Dailytip - behind the scene. Part 1](tips/05-09-2017)
