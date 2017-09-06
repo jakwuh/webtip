@@ -1,0 +1,3 @@
+{
+    "description": "tldr; The result of `Promise.race(promises)` is the first finished promise, regardless of it being resolved or rejected."
+}
