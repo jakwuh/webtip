@@ -1,0 +1,3 @@
+{
+    "description": "I have made one step forward: created a `jsdoc-to-condition` npm package. It has a single clear aim: transform a jsdoc comment to a set of validation rules."
+}

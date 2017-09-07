@@ -18,7 +18,8 @@ export function getMarkdown(path) {
                 }
 
                 let content = arr.join('');
-                content = content.replace(/(\/)?tips\/([\d\-]+)(\/)?/g, '/t/$2/');
+                content = content.replace('https://github.com/jakwuh/dailytip/tree/master', 'https://akwuh.me');
+                content = content.replace(/(\/)?tips\/([\d\-]+)(\/)?(readme\.md)?/ig, '/t/$2/');
 
                 resolve(content);
             });
