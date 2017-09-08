@@ -72,7 +72,7 @@ Given two strings `s1` and `s2`:
 
 1. Check if they are equal. If so, return `True`
 2. Check if they consist of the same letters. If no, return `False`
-3. If there is a partition of a size `i`, such that `isScramble(s1[:i], s2[:i]) and isScramble(s1[i:], s2[i:])` or `isScramble(s1[:i], s2[-i:]) and isScramble(s1[i:], s2[:-i])` return `True`. Otherwise return `True`.
+3. If there is a partition of a size `i`, such that `isScramble(s1[:i], s2[:i]) and isScramble(s1[i:], s2[i:])` or `isScramble(s1[:i], s2[-i:]) and isScramble(s1[i:], s2[:-i])` return `True`. Otherwise return `False`.
 
 #### Solution
 
