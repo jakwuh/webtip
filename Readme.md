@@ -60,3 +60,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [05-09-2017: Dailytip - behind the scene. Part 1](tips/05-09-2017)
 - [06-09-2017: A reminder about `Promise.race`](tips/06-09-2017)
 - [07-09-2017: JSDoc type checker. Part 1](tips/07-09-2017)
+- [08-09-2017: Scrambled String](tips/08-09-2017)
