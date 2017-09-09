@@ -1,6 +1,6 @@
 ### [Candy][1]
 
-"What a simple task" - I thiugh and took **8**(!) attempts to complete the task. Simple, but not easy, indeed.
+"What a simple task" - I thought and took **8**(!) attempts to complete the task. Simple, but not easy, indeed.
 
 #### Task
 
