@@ -62,3 +62,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [07-09-2017: JSDoc type checker. Part 1](tips/07-09-2017)
 - [08-09-2017: Scrambled String](tips/08-09-2017)
 - [09-09-2017: Candy](tips/09-09-2017)
+- [10-09-2017: x ^ x = ?](tips/10-09-2017)
