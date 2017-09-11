@@ -1,0 +1,3 @@
+{
+    "description": "3 tips before we discussed the idea about making assertions based on `jsdoc` comments. As the result there is a `babel-plugin-jsdoc-to-condition` package. In this post we have a closer look at it."
+}
