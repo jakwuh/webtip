@@ -64,3 +64,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [09-09-2017: Candy](tips/09-09-2017)
 - [10-09-2017: x ^ x = ?](tips/10-09-2017)
 - [11-09-2017: JSDoc type checker. Part 2](tips/11-09-2017)
+- [12-09-2017: Subsets](tips/12-09-2017)
