@@ -31,7 +31,7 @@ tools/dev/v8gen.py x64.debug
 ninja -C out.gn/x64.debug
 ```
 
-That's it. At this point we have **d8 REPL** with a wide set of special functions:
+That's it. At this point we have a **d8 REPL** with a wide set of [special functions][4]:
 
 ```bash
 > out.gn/x64.debug/d8 --allow-natives-syntax
@@ -78,3 +78,4 @@ DebugPrint: 0x337ae3e0c919: [JSArray]
 [1]: https://twitter.com/mathias
 [2]: https://v8project.blogspot.ru/2017/09/elements-kinds-in-v8.html
 [3]: https://github.com/v8/v8/wiki/Building-from-Source
+[4]: https://cs.chromium.org/chromium/src/v8/src/runtime/runtime.h?rcl=05720af2b09a18be5c41bbf224a58f3f0618f6be&l=574
