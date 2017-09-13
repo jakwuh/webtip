@@ -1,0 +1,3 @@
+{
+    "description": "Recently I've started learning about JS V8's internals. Mathias Bynens, a V8 contributor from Google, wrote an interesting article named “Elements kinds” in V8. He explains how JS engines usually deal with numeric properties and which patterns not to use in order to avoid performance penalty."
+}
