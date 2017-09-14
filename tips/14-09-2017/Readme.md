@@ -9,7 +9,7 @@ To cut a long story short, [AMP][1] is a Google alternative to Telegram's *Insta
 
 [There are a lot][2]:
 
-- Author-written / 3rd party JS is allowed **only in iframes having different domain** (for security reasons). This means an AMP page itself will work well without JS at all
+- Author-written / 3rd party JS is allowed **only in iframes having different domain** (for security reasons). This means an AMP page itself will work without JS at all
 - All JS scripts must be asynchronous
 - All static content should have their sizes defined in a markup
 - All CSS must be **inlined**
