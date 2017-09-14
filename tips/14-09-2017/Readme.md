@@ -30,7 +30,7 @@ Actually you could serve it in [a number of ways][6]: by using prefix (e.g. `exa
 
 #### Is it still alive?
 
-Yes. More so, I'd say it is *still unstable technology*.
+Yes. More so, I'd say it is *still an unstable technology*.
 
 #### Will I benefit from it?
 
