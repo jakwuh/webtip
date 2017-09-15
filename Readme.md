@@ -67,3 +67,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [12-09-2017: Subsets](tips/12-09-2017)
 - [13-09-2017: "Elements kinds" or how to debug `V8`](tips/13-09-2017)
 - [14-09-2017: AMP](tips/14-09-2017)
+- [15-09-2017: `TCP_NODELAY`](tips/15-09-2017)

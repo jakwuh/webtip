@@ -1,0 +1,3 @@
+{
+    "description": "At the initial implementation TCP sent data immediately. Thus, if on a server you emitted small chunks of data then TCP did not buffer them but simply sent to a client. This resulted into tinygrams (aka small packets) going over network and creating unfairly congestion. John Nagle created an algorithm which eliminates the described problem. It works as following:"
+}
