@@ -1,0 +1,3 @@
+{
+    "description": "Design a data structure that supports the following two operations: add an integer number from the data stream and return the median of all elements so far."
+}
