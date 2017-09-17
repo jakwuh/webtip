@@ -69,3 +69,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [14-09-2017: AMP](tips/14-09-2017)
 - [15-09-2017: `TCP_NODELAY`](tips/15-09-2017)
 - [16-09-2017: Find Median from Data Stream](tips/16-09-2017)
+- [17-09-2017: Intersection of Linked Lists](tips/17-09-2017)
