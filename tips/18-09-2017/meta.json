@@ -1,0 +1,3 @@
+{
+    "description": "Today I learned from the WebStandarts podcast (which I am listening to) about a fun tool named npx that is installed alongside npm@5.2.0+. It allows to execute npm packages without installing them neither globally nor locally (think of it as of disposable npm)."
+}
