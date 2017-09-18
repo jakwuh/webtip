@@ -66,4 +66,4 @@ ListNode* Solution::getIntersectionNode(ListNode* A, ListNode* B) {
 
 ```
 
-[1]: [https://www.interviewbit.com/problems/intersection-of-linked-lists/]
+[1]: https://www.interviewbit.com/problems/intersection-of-linked-lists/
