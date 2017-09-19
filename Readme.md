@@ -72,3 +72,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [17-09-2017: Intersection of Linked Lists](tips/17-09-2017)
 - [18-09-2017: `npx` - npm package runner](tips/18-09-2017)
 - [19-09-2017: Angular Style Guide](tips/19-09-2017)
+- [20-09-2017: WebStorm: **Rearrange Code**](tips/20-09-2017)
