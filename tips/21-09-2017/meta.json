@@ -1,0 +1,3 @@
+{
+    "description": "Find shortest unique prefix to represent each word in the list. Example: `Input: [zebra, dog, duck, dove]` `Output: {z, dog, du, dov}`"
+}
