@@ -74,3 +74,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [19-09-2017: Angular Style Guide](tips/19-09-2017)
 - [20-09-2017: WebStorm: Rearrange Code](tips/20-09-2017)
 - [21-09-2017: Shortest Unique Prefix](tips/21-09-2017)
+- [23-09-2017: NodeJS Event Loop](tips/23-09-2017)

@@ -1,0 +1,3 @@
+{
+    "description": "By default `libuv` offloads asynchronous IO to system IO interfaces. If it is not possible, then it offloads asynchronous IO to a separate thread. The default `libuv`'s thread pool is of size 4. It is possible to change it by calling node with a `UV_THREADPOOL_SIZE` env argument."
+}
