@@ -2,11 +2,11 @@ Recently I have read an [article][1] written by [Daniel Khan][2] describing comm
 
 **1. NodeJS Event Loop is a bunch of sequential phases:**
 ```
-Timers(setTimeout, setInterval)
+Timers (setTimeout, setInterval)
 ↓
 IO Callbacks (network, filesystem etc.)
 ↓
-IO Polling ()
+IO Polling
 ↓
 setImmediate
 ↓
