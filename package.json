@@ -8,6 +8,7 @@
   "devDependencies": {
   },
   "scripts": {
+      "push": "git push && cd web && npm run deploy"
   },
   "repository": {
     "type": "git",
