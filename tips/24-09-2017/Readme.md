@@ -1,4 +1,4 @@
-### [Wave Array][1]
+### [Wave Array][1] 
 
 #### Task
 
