@@ -1,0 +1,3 @@
+{
+    "description": "Chrome has the feature to trace all runtime optimizations / deoptimizations of a webpage. This can shed some light on efficiency of a specific piece of code and help understand how to optimize it. To enable Chrome (de)optimizations tracing run it with the flags enabled:"
+}
