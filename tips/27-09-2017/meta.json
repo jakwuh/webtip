@@ -1,3 +1,3 @@
 {
-    "description": "`fs` works relative to `process.cwd()` and that is why it finds the required JS file. `require` works in a bit different way. It tries to find the requested module within `module.paths`:"
+    "description": "`fs` works relative to `process.cwd()` and that is why it finds the requested JS file. `require` works in a bit different way. It tries to find the requested module within `module.paths`:"
 }

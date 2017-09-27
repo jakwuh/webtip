@@ -24,7 +24,7 @@ Error: Cannot find module 'babel-plugin-transform-es2015-instanceof/lib/index.js
 
 #### Theory
 
-`fs` works relative to `process.cwd()` and that is why it finds the required JS file. `require` works in a bit different way. It tries to find the requested module within `module.paths`:
+`fs` works relative to `process.cwd()` and that is why it finds the requested JS file. `require` works in a bit different way. It tries to find the requested module within `module.paths`:
 
 ```js
 > module.paths
