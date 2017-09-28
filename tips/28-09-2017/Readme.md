@@ -1,6 +1,6 @@
 To measure asset's parse time one could do something like the following (at first sight):
 
-```js
+```html
 <script>
 // this will not measure full parse time
 performance.mark('parse:start');
@@ -13,7 +13,7 @@ However, the code above does not take into account a parse delay, which takes pl
 
 Thus, to measure a real asset's parsing time we should [use the following][1].
 
-```js
+```html
 <script>
 // this will
 performance.mark('parse:start');
