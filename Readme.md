@@ -79,3 +79,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [25-09-2017: Chrome 62 DevTools highlights](tips/25-09-2017)
 - [26-09-2017: Chrome (de)opt tracing](tips/26-09-2017)
 - [27-09-2017: NodeJS module resolution](tips/27-09-2017)
+- [28-09-2017: How to measure parsing time](tips/28-09-2017)
