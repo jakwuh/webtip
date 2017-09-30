@@ -81,3 +81,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [27-09-2017: NodeJS module resolution](tips/27-09-2017)
 - [28-09-2017: How to measure parsing time](tips/28-09-2017)
 - [29-09-2017: Abortable `fetch` (!)](tips/29-09-2017)
+- [30-09-2017: Time to drop PhantomJS](tips/30-09-2017)

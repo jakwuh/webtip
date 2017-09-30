@@ -1,0 +1,3 @@
+{
+    "description": "With the release of puppeteer it's now very easy to start using Chrome headless for solving various tasks. One such task is using it as a browser for running tests with karma. Back then we usually used PhantomJS that had a lot of JS syntax unsupported and really wasn't updated for years."
+}
