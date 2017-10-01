@@ -1,0 +1,3 @@
+{
+    "description": "A TC39 proposal called *Optional catch binding* is on its Stage 3 now. It allows to avoid creating unnecessary variable binding in case you want to simply ignore an error (which is useful in a number of cases)."
+}
