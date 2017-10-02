@@ -83,3 +83,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [29-09-2017: Abortable `fetch` (!)](tips/29-09-2017)
 - [30-09-2017: Time to drop PhantomJS](tips/30-09-2017)
 - [01-10-2017: Optional catch binding](tips/01-10-2017)
+- [02-10-2017: Matrix Median](tips/02-10-2017)
