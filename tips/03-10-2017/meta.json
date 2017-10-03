@@ -1,0 +1,3 @@
+{
+    "description": "Mono repository in comparison to multiple repositories has a lot of cons and pros. In this post we explore a tool called `lerna` which is built to start, evolve and manage monorepository."
+}
