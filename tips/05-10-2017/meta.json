@@ -1,0 +1,3 @@
+{
+    "description": "Daniel Ehrenberg's pipeline operator proposal is at the stage 1. It works similar to lodash chain wrapper, allowing to transform nested functions calls into a waterfall:"
+}

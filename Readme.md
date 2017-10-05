@@ -86,3 +86,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [02-10-2017: Matrix Median](tips/02-10-2017)
 - [03-10-2017: `lerna` - a tool for managing JavaScript projects with multiple packages.](tips/03-10-2017)
 - [04-10-2017: `babel` + `typescript` = ❤️](tips/04-10-2017)
+- [05-10-2017: proposal-pipeline-operator](tips/05-10-2017)
