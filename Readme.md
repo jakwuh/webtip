@@ -89,3 +89,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [05-10-2017: proposal-pipeline-operator](tips/05-10-2017)
 - [06-10-2017: Median of Array](tips/06-10-2017)
 - [07-10-2017: Managing your bundle size](tips/07-10-2017)
+- [08-10-2017: Should I DRY or not?](tips/08-10-2017)
