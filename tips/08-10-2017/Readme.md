@@ -6,7 +6,7 @@ There are a lot of different opinions when it comes to decision on code (de)dupl
 
 - Remember you are working in a team. When making a decision think about your teammate who may want the same functionality in a future or had already implemented the functionality you need. So, if you have a relatively large (or complex) piece of code take it out in a separate function. The naming convention across the team is important.
 
-- If you are in doubt whether a piece of code should be deduplicated, then deduplicate it. Both 2 most popular bundlers (webpack & rollup) now have [scope hoisting][3] feature. That means excess deduplication will have a 0 cost.ч
+- If you are in doubt whether a piece of code should be deduplicated, then deduplicate it. Both 2 most popular bundlers (webpack & rollup) now have [scope hoisting][3] feature. That means excess deduplication will have a 0 cost.
 
 
 [1]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
