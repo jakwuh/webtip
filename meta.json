@@ -1,0 +1,3 @@
+{
+    "description": "If you have a file input which is supposed to open user's camera on mobile phones (due to business requirements or some UX decisions) then it is possible to indicate that capture of media directly from device's camera is preferred using html media `capture` attribute."
+}
