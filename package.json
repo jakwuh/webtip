@@ -4,6 +4,8 @@
   "description": "Daily js & related tips 🛠",
   "main": "",
   "dependencies": {
+    "global": "^4.3.2",
+    "source-map-explorer": "^1.4.0"
   },
   "devDependencies": {
   },

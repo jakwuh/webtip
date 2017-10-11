@@ -92,3 +92,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [08-10-2017: Should I DRY or not?](tips/08-10-2017)
 - [09-10-2017: input\[capture="user"\]](tips/09-10-2017)
 - [10-10-2017: Finding all possible permutations](tips/10-10-2017)
+- [11-10-2017: Browser resource hints](tips/11-10-2017)
