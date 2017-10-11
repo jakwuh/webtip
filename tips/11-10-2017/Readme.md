@@ -1,4 +1,4 @@
-Resource hint is a way of prematurely giving resource information to a browser to make it faster: whether it is looking up for a domain or fetching a script. Lets explore existing resource hints an their purpose.
+Resource hint is a way of prematurely giving resource information to a browser to make it faster: whether it is looking up for a domain or fetching a script. Lets explore existing resource hints and their purpose.
 
 #### dns-prefetch
 
