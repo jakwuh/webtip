@@ -94,3 +94,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [10-10-2017: Finding all possible permutations](tips/10-10-2017)
 - [11-10-2017: Browser resource hints](tips/11-10-2017)
 - [12-10-2017: Rearrange array](tips/12-10-2017)
+- [13-10-2017: Nearest Smaller Element](tips/13-10-2017)
