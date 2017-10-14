@@ -1,0 +1,3 @@
+{
+    "description": "GitHub files, both from gists and repositories could be fetched in a raw format. This could help when using a container (e.g. Docker) which do not has git installed:"
+}
