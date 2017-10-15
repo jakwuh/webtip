@@ -96,3 +96,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [12-10-2017: Rearrange array](tips/12-10-2017)
 - [13-10-2017: Nearest Smaller Element](tips/13-10-2017)
 - [14-10-2017: `curl` `GitHub`](tips/14-10-2017)
+- [15-10-2017: How to shim](tips/15-10-2017)

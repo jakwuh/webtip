@@ -1,0 +1,3 @@
+{
+    "description": "There is an interesting way of shipping browser polyfills by using so called "split points". You could split all browsers into 2+ categories, for instance: "Modern browsers" and "Obsolete browsers". Then, depending on a feature set your code depends on, you could define a condition which will detect to which group a browser belongs:"
+}
