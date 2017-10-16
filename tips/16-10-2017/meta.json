@@ -1,3 +1,3 @@
 {
-    "description": "By saying instance decorator I mean decorator which has to be applied on a class instance rather than on a class itself. For instance, debounce decorator should have a separate \"tracking pipe\" for each instance. In other words if we have two variables a and b - both instances of class X, then calling debounced `a.debouncedFn()` should not affect b at all."
+    "description": "By saying instance decorator I mean decorator which has to be applied on a class instance rather than on a class itself. For example, debounce decorator should have a separate \"tracking pipe\" for each instance. In other words if we have two variables a and b - both instances of class X, then calling debounced `a.debouncedFn()` should not affect b at all."
 }

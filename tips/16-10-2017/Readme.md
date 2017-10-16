@@ -85,4 +85,6 @@ function Debounce(wait) {
 }
 ```
 
+[Source code][1]
+
 [1]: https://github.com/jakwuh/es-decorators/blob/master/src/DecorateInstance.js
