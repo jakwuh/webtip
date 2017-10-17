@@ -1,0 +1,3 @@
+{
+    "description": "In Typescript `?T` behaves equal to `T|undefined`. However there is a caveat: `undefined` as well as `null` types could be assigned to any type. That is why following pieces of code work:"
+}
