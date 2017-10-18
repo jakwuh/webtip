@@ -1,0 +1,3 @@
+{
+    "description": "Given an array of 1s and 0s and an integer M, which signifies number of flips allowed, find the position of zeros which when flipped will produce maximum continuous series of 1s. Return the indices of maximum continuous series of 1s in order."
+}

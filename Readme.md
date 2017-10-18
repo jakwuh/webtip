@@ -99,3 +99,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [15-10-2017: How to shim](tips/15-10-2017)
 - [16-10-2017: Writing `instance` decorator](tips/16-10-2017)
 - [17-10-2017: `strictNullChecks` and optional types in Typescript](tips/17-10-2017)
+- [18-10-2017: Max continuous series of 1s with flips](tips/18-10-2017)
