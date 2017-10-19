@@ -6,5 +6,6 @@ hljs.registerLanguage('javascript', require('highlight.js/lib/languages/javascri
 hljs.registerLanguage('json', require('highlight.js/lib/languages/json'));
 hljs.registerLanguage('python', require('highlight.js/lib/languages/python'));
 hljs.registerLanguage('cpp', require('highlight.js/lib/languages/cpp'));
+hljs.registerLanguage('yml', require('highlight.js/lib/languages/yaml'));
 
 hljs.initHighlightingOnLoad();
