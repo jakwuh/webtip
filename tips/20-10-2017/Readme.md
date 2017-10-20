@@ -1,4 +1,4 @@
-Now I'm reading [Getting Real][1] - a book about building successful web apps from Basecamp (former [37signals][2]). While I disagree with a number of thoughts discussed (e.g. the advice to start coding having only core system principles and aims rather than having a detailed look at it), there are still a plenty of highly useful advices. Actually there are a lot of headlines in the book:
+Now I'm reading [Getting Real][1] - a book about building successful web apps from Basecamp (former [37signals][2]). While I disagree with a number of thoughts discussed (e.g. the advice to start coding having only core system principles and aims rather than having a detailed look at it), there are still a plenty of highly useful pieces of advice. Actually there are a lot of headlines in the book:
 
 - Build less
 - Build software for yourself
