@@ -102,3 +102,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [18-10-2017: Max continuous series of 1s with flips](tips/18-10-2017)
 - [19-10-2017: Docker for mysql/mongo](tips/19-10-2017)
 - [20-10-2017: Get real](tips/20-10-2017)
+- [21-10-2017: #wstdays](tips/21-10-2017)
