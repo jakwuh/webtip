@@ -21,6 +21,8 @@
     </head>
     <body>
         <button id="donate" type="button" name="button">Donate</button>
+        <br>
+        <br>
         <pre id="result"></pre>
         <script type="text/javascript">
         document.getElementById('donate').addEventListener('click', pay);
@@ -37,7 +39,7 @@
 
           var details = {
             total: {
-              label: 'Donation',
+              label: 'Dailytip donation',
               amount: {
                 currency: 'USD',
                 value: '0.01'
@@ -62,7 +64,7 @@
             // Add event listeners here.
             // Call show() to trigger the browser's payment flow.
             request.show().then(function(instrumentResponse) {
-              console.dir(instrumentResponse)
+                sendPaymentToServer(instrumentResponse);
             })
               .catch(function(err) {
                 console.error(err);
