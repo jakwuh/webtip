@@ -105,3 +105,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [21-10-2017: #wstdays](tips/21-10-2017)
 - [22-10-2017: button, not link](tips/22-10-2017)
 - [23-10-2017: PaymentRequest API](tips/23-10-2017)
+- [24-10-2017: WebShare API](tips/24-10-2017)

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Web Share API</title>
+        <style media="screen">
+            button {
+                background-color: #008CBA;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+            }
+            button:hover {
+                outline: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="share">Share me!</button>
+        <script type="text/javascript">
+        document.getElementById('share').addEventListener('click', () => {
+            if (navigator.share) {
+                navigator.share({
+                  title: 'Daily tip #98: WebShare API',
+                  text: 'Check out the new dailytip - WebShare API!',
+                  url: 'https://akwuh.me/t/98/',
+                })
+                .then(() => alert('Successful share'))
+                .catch((error) => alert('Error sharing: ' + error));
+            } else {
+                alert('Your browser doesn\'t support WebShare API :\(');
+            }
+        });
+        </script>
+    </body>
+</html>
