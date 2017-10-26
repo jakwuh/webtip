@@ -1,4 +1,4 @@
-Whoa! Looking back and seeing all the big job we've done together inspires me a lot. Sure, together - because **100** tips written day-by-day can't be possible without your support, my readers. I'm truly happy for that.
+Whoa! Looking back and seeing all the big job we've done together inspires me a lot. Sure, together - because **100** tips written day-by-day can't be possible without your support. I'm truly happy for that.
 
 Back then, at [**50th**][1] tip I've described all those aims I've set myself. There are:
 
