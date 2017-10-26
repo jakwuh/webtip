@@ -1,4 +1,4 @@
-#### Subscribe to our [Telegram channel](https://t.me/dailytip) to get daily updates  
+#### Subscribe to our [Telegram channel](https://t.me/webtip) to get daily updates  
 
 ---
 

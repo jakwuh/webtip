@@ -78,5 +78,5 @@ className: function className(options, _className) {
 This is important for creating proper assertions from `jsdoc` comments.
 
 [1]: https://github.com/jakwuh/babel-plugin-jsdoc-to-condition
-[2]: https://github.com/jakwuh/dailytip/tree/master/tips/07-09-2017
+[2]: https://github.com/jakwuh/webtip/tree/master/tips/07-09-2017
 [3]: https://www.npmjs.com/package/babel-plugin-jsdoc-to-condition

@@ -15,5 +15,5 @@ To start using it you need to do a few simple steps:
 
 2) Press `cmd (ctrl)` + `shift` + `a` and choose **Rearrange Code**
 
-[1]: https://github.com/jakwuh/dailytip/tree/master/tips/19-09-2017
+[1]: https://github.com/jakwuh/web/tree/master/tips/19-09-2017
 [2]: https://angular.io/guide/styleguide

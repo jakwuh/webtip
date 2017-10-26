@@ -33,4 +33,4 @@ At the moment I am writing this tip there are 120 telegram subscribers in our [c
 I hope you enjoy the `dailytip` project. Don't hesitate to contact me to leave a feedback at any time via [Telegram](https://t.me/jakwuh) or [email](mailto:jakwuh@gmail.com).
 
 [1]: https://www.instagram.com/marina_amani_/
-[2]: https://t.me/dailytip
+[2]: https://t.me/webtip

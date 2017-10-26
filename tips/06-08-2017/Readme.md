@@ -1,9 +1,9 @@
-#### Subscribe to our [Telegram channel](https://t.me/dailytip) to get daily updates
+#### Subscribe to our [Telegram channel](https://t.me/webtip) to get daily updates
 
 This is a set of useful [WS live templates](https://www.jetbrains.com/help/webstorm/live-templates-2.html) for JS and React created by [@drapegnik](https://github.com/Drapegnik)
 
 A few tips back [we learned](/tips/02-08-2017) how to create live templates. Today I'll show you my set of shortcuts.   
-    
+
 ![live template demo](http://res.cloudinary.com/dzsjwgjii/image/upload/v1502207798/rcc-demo.gif)
 
 ## Table of contents
@@ -71,7 +71,7 @@ $ARRAY$.filter($VAR$ => $END$)
 
 name | expression | default
 --- | --- | ---
-`ARRAY` | `jsArrayVariable()` | 
+`ARRAY` | `jsArrayVariable()` |
 `VAR` |  | `"item"`
 
 ***
@@ -86,7 +86,7 @@ $ARRAY$.reduce(($ACC$, $CUR$) => $END$);
 ### > `=>`
 > ES6 arrow function
 ```js
-const $NAME$ = ($PARAMS$) => { 
+const $NAME$ = ($PARAMS$) => {
   return $END$;
 };
 ```
@@ -113,7 +113,7 @@ for (let $INDEX$ = $ARRAY$.length - 1; $INDEX$ >= 0; $INDEX$--) {
 name | expression | default
 --- | --- | ---
 `INDEX` | `jsSuggestIndexName()` | `"i"`
-`ARRAY` | `jsArrayVariable()` | 
+`ARRAY` | `jsArrayVariable()` |
 `VAR` | `jsSuggestVariableName()` |
 
 ***
@@ -165,7 +165,7 @@ import React, { Component, PropTypes } from 'react';
 
 class $COMPONENT$ extends Component {
   propTypes = {};
-  
+
   defaultProps = {};
 
   render() {
@@ -400,7 +400,7 @@ componentWillReceiveProps(nextProps) {
 ***
 
 ### > `cdu`
-> 
+>
 ```js
 componentDidUpdate(prevProps$PARAMS$) {
   $END$
@@ -408,7 +408,7 @@ componentDidUpdate(prevProps$PARAMS$) {
 ```
 
 ### > `scu`
-> 
+>
 ```js
 shouldComponentUpdate(prevProps$PARAMS$) {
   $END$

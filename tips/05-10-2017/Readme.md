@@ -15,4 +15,4 @@ In case you want to remove `lodash` `chain` functionality there is already [a ti
 [1]: https://github.com/tc39/proposal-pipeline-operator
 [2]: https://www.npmjs.com/package/babel-plugin-transform-pipeline
 [3]: https://twitter.com/littledan
-[4]: https://github.com/jakwuh/dailytip/tree/master/tips/22-08-2017
+[4]: https://github.com/jakwuh/webtip/tree/master/tips/22-08-2017

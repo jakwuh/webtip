@@ -37,6 +37,6 @@ The next step is to implement a babel plugin which will read comments, build ass
 
 Special credits to [next0][2] for sharing the idea
 
-[1]: https://github.com/jakwuh/dailytip/tree/master/tips/27-07-2017/Readme.md
+[1]: https://github.com/jakwuh/webtip/tree/master/tips/27-07-2017/Readme.md
 [2]: https://github.com/next0
 [3]: https://www.npmjs.com/package/jsdoc-to-condition

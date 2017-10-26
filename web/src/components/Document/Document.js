@@ -9,19 +9,19 @@ export class Document {
             ['og:type', 'article'],
             ['og:url', `https://akwuh.me/t/${tip.id}/`],
             ['og:description', tip.description],
-            ['og:site_name', 'Daily Tip']
+            ['og:site_name', 'Web Tip']
         ] : [
-            ['description', 'Daily web, algos & related tips 🛠'],
-            ['og:title', 'Dailytip @ James Akwuh'],
+            ['description', 'Web, algos & related tips 🛠'],
+            ['og:title', 'Web Tip @ James Akwuh'],
             ['og:type', 'website'],
             ['og:url', 'https://akwuh.me/t/'],
-            ['og:description', 'Daily web, algos & related tips 🛠'],
-            ['og:site_name', 'Daily Tip']
+            ['og:description', 'Web, algos & related tips 🛠'],
+            ['og:site_name', 'Web Tip']
         ]
     }
 
     getTitle(tip) {
-        return (tip ? `${tip.title} - ` : '') + 'Dailytip @ James Akwuh';
+        return (tip ? `${tip.title} - ` : '') + 'Web Tip @ James Akwuh';
     }
 
     render({tip, content = tip.content}) {

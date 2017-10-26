@@ -77,7 +77,7 @@ That means `memoize` function is replaced with `identity`. End of proof.
 
 Credits to [@iamakulov][5] and [@drapegnik][6] for asking good questions about `lodash-webpack-plugin`.
 
-[1]: https://github.com/jakwuh/dailytip/blob/master/tips/21-08-2017/Readme.md
+[1]: https://github.com/jakwuh/webtip/blob/master/tips/21-08-2017/Readme.md
 [2]: https://lodash.com/docs/4.17.4#chain
 [3]: https://lodash.com/docs/4.17.4#memoize
 [4]: https://lodash.com/docs/4.17.4#partialRight

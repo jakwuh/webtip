@@ -66,7 +66,7 @@ CallExpression(path) {
 }
 ```
 
-[1]: https://github.com/jakwuh/dailytip/tree/master/tips/17-08-2017
+[1]: https://github.com/jakwuh/web/tree/master/tips/17-08-2017
 [2]: https://github.com/jakwuh/babel-plugin-webpack-named-dynamic-imports
 [3]: https://www.npmjs.com/package/babylon
 [4]: https://github.com/jakwuh/babel-plugin-webpack-named-dynamic-imports/blob/master/index.js#L7-L21

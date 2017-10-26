@@ -43,4 +43,4 @@ These are the only steps needed to start using `typescript`. Give it a try!
 [1]: https://babeljs.io/blog/2017/09/12/planning-for-7.0
 [2]: https://github.com/babel/babel/issues/6093
 [3]: https://github.com/jakwuh/babel-plugin-transform-typescript
-[4]: https://github.com/jakwuh/dailytip/tree/master/tips/03-10-2017
+[4]: https://github.com/jakwuh/webtip/tree/master/tips/03-10-2017

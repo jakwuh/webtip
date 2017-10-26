@@ -29,7 +29,7 @@ Unfortunately on my phone WebShare API has an annoying bug: if you click `share`
 WebShare API along with [WebShare Target API][4], that specifies the way to make a sharing target from a website, form [Ballista project][5].
 
 [1]: https://developers.google.com/web/updates/2016/09/navigator-share
-[2]: https://github.com/jakwuh/dailytip/tree/master/tips/23-10-2017
+[2]: https://github.com/jakwuh/webtip/tree/master/tips/23-10-2017
 [3]: https://html.spec.whatwg.org/multipage/interaction.html#triggered-by-user-activation
 [4]: https://github.com/mgiuca/web-share-target
 [5]: https://github.com/chromium/ballista

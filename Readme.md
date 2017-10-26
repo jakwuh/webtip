@@ -1,10 +1,10 @@
-# Daily tip
+# Web tip
 
-#### Subscribe to our [Telegram channel](https://t.me/dailytip) to get daily updates  
+#### Subscribe to our [Telegram channel](https://t.me/webtip) to get updates  
 
-*tldr; A tip a day. JS & related.*
+*tldr; Blog. Web & related.*
 
-Hi! My name is James Akwuh and I've started this project to hit a range of professional and personal aims at once (which I will cover as soon as I will reach a number of 100 tips). Until then you are welcome to check out this repo every day for a new tip about JS and related topics. Hope, you will find it helpful.
+Hi! My name is James Akwuh and I've started this project to hit a range of professional and personal aims at once. You are welcome to follow the project for new tips about Web and related topics. Hope, you will find it helpful.
 
 ### Table of contents:
 
@@ -107,3 +107,4 @@ Hi! My name is James Akwuh and I've started this project to hit a range of profe
 - [23-10-2017: PaymentRequest API](tips/23-10-2017)
 - [24-10-2017: WebShare API](tips/24-10-2017)
 - [25-10-2017: Async iteration / Async generators](tips/25-10-2017)
+- [26-10-2017: One hundred! (or the future of Daily Tip)](tips/26-10-2017)

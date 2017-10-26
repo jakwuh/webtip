@@ -103,5 +103,5 @@ class Solution(object):
 ```
 
 [1]: https://leetcode.com/problems/scramble-string/description/
-[2]: https://github.com/jakwuh/dailytip/tree/master/tips/07-09-2017/Readme.md
+[2]: https://github.com/jakwuh/webtip/tree/master/tips/07-09-2017/Readme.md
 [3]: https://leetcode.com

@@ -1,7 +1,7 @@
 {
-  "name": "dailytip",
-  "version": "1.0.0",
-  "description": "Daily js & related tips 🛠",
+  "name": "webtip",
+  "version": "2.0.0",
+  "description": "Web & related tips 🛠",
   "main": "",
   "dependencies": {
     "global": "^4.3.2",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jakwuh/dailytip.git"
+    "url": "git+ssh://git@github.com/jakwuh/webtip.git"
   },
   "keywords": [
     "javscript",
@@ -23,7 +23,7 @@
   "author": "jakwuh <jakwuh@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jakwuh/dailytip/issues"
+    "url": "https://github.com/jakwuh/webtip/issues"
   },
-  "homepage": "https://github.com/jakwuh/dailytip#readme"
+  "homepage": "https://github.com/jakwuh/webtip#readme"
 }

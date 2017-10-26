@@ -93,6 +93,6 @@ The most difficult questions are:
 
 Look forward for the next tip to find the answers.
 
-[1]: https://github.com/jakwuh/dailytip/blob/master/tips/15-08-2017/Readme.md
-[2]: https://github.com/jakwuh/dailytip/blob/master/tips/21-08-2017/
+[1]: https://github.com/jakwuh/webtip/blob/master/tips/15-08-2017/Readme.md
+[2]: https://github.com/jakwuh/webtip/blob/master/tips/21-08-2017/
 [3]: https://www.npmjs.com/package/lodash-webpack-plugin

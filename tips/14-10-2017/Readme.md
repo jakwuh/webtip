@@ -2,7 +2,7 @@ GitHub files, both from gists and repositories could be fetched in a raw format.
 
 ```bash
 # curl -L https://github.com/:username/:reponame/blob/:commithash/:filepath
-curl -L https://github.com/jakwuh/dailytip/blob/master/Readme.md
+curl -L https://github.com/jakwuh/webtip/blob/master/Readme.md
 ```
 
 ```bash
