@@ -13,8 +13,13 @@ img.icon ~ span {
     line-height: 20px;
 }
 
-.location, .event {
+.event {
     font-size: 14px;
+}
+
+.location {
+    font-size: 14px;
+    color: #0009;
 }
 
 .title {
