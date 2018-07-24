@@ -1,0 +1,43 @@
+img.icon {
+    height: 16px;
+    vertical-align: middle;
+    background: none;
+}
+
+img.icon ~ span {
+    vertical-align: middle;
+}
+
+.talk-footer {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.location, .event {
+    font-size: 14px;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.margin-xs {
+    margin: 0 10px 10px 0;
+}
+
+table {
+    display: table !important;
+}
+
+tr {
+    border-top: none !important;
+}
+
+td {
+    border: none !important;
+}
+
+.date {
+    font-size: 14px;
+    color: #0009;
+}

@@ -7,6 +7,7 @@ import {Tip} from '../../entities/Tip';
 
 export default function () {
     return compose([
+        mount('/speaking/', serve(SPEAKING_ASSETS_PATH)),
         mount('/assets/', serve(ASSETS_PATH)),
 
         route.get('/t/:id/:asset+', async (ctx, id, asset) => {

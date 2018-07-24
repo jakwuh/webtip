@@ -38,6 +38,7 @@ module.exports = function ({paths: {root, dist}, env: {development}}) {
             new webpack.DefinePlugin({
                 MANIFEST_PATH: JSON.stringify(resolve(root, 'dist/client/manifest.json')),
                 ASSETS_PATH: JSON.stringify(resolve(root, 'dist/client/assets')),
+                SPEAKING_ASSETS_PATH: JSON.stringify(resolve(root, '../pages/speaking')),
                 TIPS_PATH: JSON.stringify(resolve(root, '../tips')),
                 ROOT_PATH: JSON.stringify(resolve(root, '..'))
             })
