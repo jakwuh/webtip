@@ -18,7 +18,6 @@ img.icon ~ span {
 }
 
 .title {
-    font-weight: 500;
 }
 
 .margin-xs {
@@ -33,7 +32,12 @@ tr {
     border-top: none !important;
 }
 
+tr:first-child td {
+    padding-top: 0 !important;
+}
+
 td {
+    padding: 20px !important;
     border: none !important;
 }
 
