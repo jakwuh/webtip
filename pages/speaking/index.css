@@ -2,6 +2,7 @@ img.icon {
     height: 16px;
     vertical-align: middle;
     background: none;
+    text-decoration: none;
 }
 
 img.icon ~ span {
