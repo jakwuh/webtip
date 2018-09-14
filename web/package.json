@@ -5,7 +5,7 @@
     "serve": "node ./dist/server/index.js",
     "serve:watch": "nodemon ./dist/server/index.js",
     "start": "concurrently --kill-others \"npm run webpack:watch\" \"npm run serve:watch\"",
-    "deploy": "ssh -A me 'bash -ic \"cd dailytip && git pull && cd web && yarn && npm run webpack && pm2 restart dailytip\"'"
+    "deploy": "ssh -A me 'bash -ic \"cd dailytip && git fetch && git reset origin/master --hard && cd web && yarn && npm run webpack && pm2 restart dailytip\"'"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
